@@ -363,24 +363,5 @@
 .dia-title.bl-blue:before {background-position:0 0}
 .dia-title.bl-red:before {background-position:-50px 0}
 
-/* ÀÎÁ¶´ë¸®¼®, ÀÌ½ºÅæ */
-.prd-feature.type02 {display:block}
-.prd-feature.type02 .feature-list li {display:block; float:left; width:20%}
-.prd-feature.type02 .feature-list.num6 li {width:33.3%}
-.prd-feature.type02 .feature-list li dl dd p {min-height:105px}
-.prd-feature.type02 .feature-list li dl {margin-top:25px}
-.picto-area {margin-top:20px; text-align:center}
-.construct-place {margin-left:-10px; margin-top:-10px}
-.construct-place:after {content:''; display:block; clear:both}
-.construct-place + .construct-place {margin-top:60px}
-.construct-place > li {float:left; width:33.3%}
-.construct-place > li.right {float:right}
-.construct-place > li .inner {position:relative; z-index:1; display:block; margin-left:10px; margin-top:10px}
-.construct-place > li .inner .txt {display:none; position:absolute; top:0; left:0; z-index: 10; width:100%; height:100%; padding:20px 20px 20px 20px; color:#fff; 
-background:rgba(0, 0, 0, 0.75); cursor: default; }
-.construct-place > li .inner .txt .posit-ab {position:absolute; bottom:13px}
-.construct-place > li .inner .txt li {position:relative; padding-left:105px; line-height:20px; font-size:12px; font-weight:200}
-.construct-place > li .inner .txt li.type2 {padding-left:155px}
-.construct-place > li .inner .txt li span {position:absolute; top:0; left:0; font-size:12px; font-weight:400}
-.construct-place > li .inner:hover .txt,
+
 .construct-place > li .inner:focus .txt {display:block}
